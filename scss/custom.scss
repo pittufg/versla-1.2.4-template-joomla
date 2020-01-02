@@ -1,11 +1,3 @@
-.row .col-md-4 .fabrikFilterContainer {
-    margin-top: 4px;
-}
-
-ul.jqtree-tree {
-    margin-top: 3px;
-}
-
 @media (min-width: 768px) {
     .col-md-2 {
         flex: 0 0 16.6666666667%;
@@ -18,4 +10,34 @@ ul.jqtree-tree {
         flex: 0 0 83.3333333333%;
         max-width: 83.3333333333%;
     }
+}
+
+.card-galery {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-height:400px;overflow:auto;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card-galery:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container-galery {
+    padding: 2px 16px;
+  }
+
+.list-striped, .row-striped {
+    border-top: 0px;
+}
+
+.card-body-mosaico {
+    flex: 1 1 auto;
+    padding: 1.0rem;
+}
+
+.badge {
+    margin-right: 4px;
 }

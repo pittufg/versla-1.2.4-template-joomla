@@ -58,14 +58,14 @@
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
     background-image: none;
     background: $accent-color-1;
-    color: $base-text-color !important;
+    color:  #ffffff !important;
     border: 1px solid $border-color-light;
 }
 
 .dropdown-menu > li > button:hover, .dropdown-menu > li > button:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > button {
     background-image: none;
-    background: $accent-color-1;
-    color: $base-text-color !important;
+    background: $accent-color-2;
+    color: #ffffff !important;
     border: 1px solid $border-color-light;
 }
 
