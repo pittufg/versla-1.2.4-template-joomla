@@ -1,43 +1,78 @@
 @media (min-width: 768px) {
-    .col-md-2 {
-        flex: 0 0 16.6666666667%;
-        max-width: 16.6666666667%;
-    }
+  .col-md-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
 }
 
 @media (min-width: 768px) {
-    .col-md-10 {
-        flex: 0 0 83.3333333333%;
-        max-width: 83.3333333333%;
-    }
+  .col-md-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
 }
 
 .card-galery {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    max-height:400px;overflow:auto;
-  }
-  
-  /* On mouse-over, add a deeper shadow */
-  .card-galery:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  /* Add some padding inside the card container */
-  .container-galery {
-    padding: 2px 16px;
-  }
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-height: 400px;
+  overflow: auto;
+}
 
-.list-striped, .row-striped {
-    border-top: 0px;
+/* On mouse-over, add a deeper shadow */
+.card-galery:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container-galery {
+  padding: 2px 16px;
+}
+
+.list-striped,
+.row-striped {
+  border-top: 0px;
 }
 
 .card-body-mosaico {
-    flex: 1 1 auto;
-    padding: 1.0rem;
+  flex: 1 1 auto;
+  padding: 1rem;
 }
 
 .badge {
-    margin-right: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.fabrikRepeatData {
+  margin: auto;
+  list-style-type: none;
+}
+
+.badge-primary {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.badge-primary:hover {
+  background-color: #00bdff;
+}
+
+.badge-info {
+  color: #fff;
+  background-color: #3a87ad;
+}
+
+.badge-info:hover {
+  background-color: #2d6987;
+}
+
+.badge-success {
+  color: #fff;
+  background-color: #468847;
+}
+
+.badge-success:hover {
+  background-color: #356635;
 }

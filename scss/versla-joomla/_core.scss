@@ -69,6 +69,13 @@
     border: 1px solid $border-color-light;
 }
 
+.selected-atag {
+    background-image: none;
+    background: $accent-color-1;
+    color:  #ffffff !important;
+    border: 1px solid $border-color-light;
+}
+
 .btn-link {
     color: $accent-color-1;
 }
